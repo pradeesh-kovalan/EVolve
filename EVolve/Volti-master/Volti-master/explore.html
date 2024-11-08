@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - custom font link
+  -->
+  <link rel="stylesheet" href="./assets/font/font.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/loading.svg">
+  <link rel="preload" as="image" href="./assets/images/loading-circle.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+</head>
+<body>
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/EVolve-logo.png" width="225" height="50" alt="volti home">
+      </a>
+
+      <div class="header-action">
+
+        <a href="./login.html" class="btn btn-primary">
+          <span class="span-login">Sign In/Up</span>
+
+          <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+        </a>
+
+      </div>
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true" class="open"></ion-icon>
+        <ion-icon name="close-outline" aria-hidden="true" class="close"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+    <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content" data-reveal="left">
+
+            <h1 class="h1 hero-title">
+              S1 Pro <br><span class="span">Engineered to thrill</span> at Rs 1,14,999
+            </h1>
+
+            <ul class="hero-list">
+
+              <li>
+                <div class="hero-card">
+                  <ion-icon name="speedometer-outline" aria-hidden="true"></ion-icon>
+
+                  <p class="card-subtitle">Top speed</p>
+
+                  <p class="card-title">120 km/h</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="hero-card">
+                  <ion-icon name="stopwatch-outline" aria-hidden="true"></ion-icon>
+
+                  <p class="card-subtitle">11 kW</p>
+
+                  <p class="card-title">Peak Power</p>
+                </div>
+              </li>
+
+              <li>
+                <div class="hero-card">
+                  <ion-icon name="speedometer-outline" aria-hidden="true"></ion-icon>
+
+                  <p class="card-subtitle">Certified Range</p>
+
+                  <p class="card-title">195 km</p>
+                </div>
+              </li>
+
+            </ul>
+
+            <a href="#" class="btn btn-primary">
+              <span class="span">Book Now</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <figure class="hero-banner" data-reveal="right">
+            <img src="./assets/images/hero-banner.png" width="1116" height="766" alt="Bike" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+      <div class="ourmost">
+        <h1>Our Most <br>Powerful Scooter Yet.</h1>
+      </div>
+      
+      <div class="pscontainer-1">
+        
+        <div class="slide bg-image image-1 active">
+          <h3>Unique colours</h3>
+          <!-- <p>5 colours to choose from</p> -->
+        </div>
+        <div class="slide bg-image image-2">
+          <h3>Peak Performance</h3>
+          <!-- <p>0-40 kmph in 2.6 secs. Go Hypermode.</p> -->
+        </div>
+        <div class="slide bg-image image-3">
+          <h3>Feature Packed</h3>
+          <!-- <p>Maps, calling and so much more with MoveOS</p> -->
+        </div>
+        <!-- <div class="slide bg-image image-4">
+          <h3>Watch Dogs 2</h3>
+        </div>
+        <div class="slide bg-image image-5">
+          <h3>Call Of Duty</h3>
+        </div> -->
+      </div>
+      <div class="ptd">
+        <div class="perRange">
+          <div class="per">
+            <h1 class="textperformance">Performance</h1>
+            <p class="textready">Ready. Set. Thrill.</p>
+          </div>
+          <div class="Range">
+            <h2 class="textrange">Range</h2>
+            <p class="textgo">195 km certified range. <br>Go further and some more.</p>
+          </div>
+        </div>
+        <div class="topadvance">
+          <div class="Range">
+            <h2 class="textrange">Top Speed</h2>
+            <p class="textgo">120 kmph. <br>Grab your racing gear.</p>
+          </div>
+          <div class="per">
+            <h1 class="textadvanceregan">Advance Regen</h1>
+            <p class="textkeepcharging">Keep charging, while you're riding.</p>
+          </div>
+        </div>
+        <div class="cruiseacc">
+          <div class="per">
+            <h1 class="textcruise">Cruise Control</h1>
+            <p class="textkeep">Keep going, without throttle input.
+              <br>Give your wrist some rest.</p>
+          </div>
+          <div class="Range">
+            <h2 class="textrange">Acceleration</h2>
+            <p class="textgo">0 to 40 in 2.6 seconds.
+              <br>Unleash the power of a
+              <br>11 kW motor.</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="technology">
+        <div class="ptd">
+          <div class="perRange">
+            <div class="per">
+              <h1 class="textperformance">Technology</h1>
+              <p class="textready">Advanced features. Upgraded riding experience. <br>Enabled by MoveOS.</p>
+            </div>
+            <div class="Range">
+              <h2 class="textrange">Proximity unlock</h2>
+              <p class="textgo">Unlocks only when you're around. It likes you like that.</p>
+            </div>
+          </div>
+          <div class="topadvance">
+            <div class="Range">
+              <h2 class="textrange">EVolve Electric App</h2>
+              <p class="textgo">Control your scooter.
+               <br> Right from your phone.</p>
+            </div>
+            <div class="per">
+              <h1 class="textadvanceregan">Rider Profiles</h1>
+              <p class="textkeepcharging">Now your friend's mother's daughter's nephew can also join the fun.</p>
+            </div>
+          </div>
+          <div class="cruiseacc">
+            <div class="per">
+              <h1 class="textcruise">Navigation</h1>
+              <p class="textkeep">Navigate with ease and explore the city. With EVolve Maps.</p>
+            </div>
+            <div class="Range">
+              <h2 class="textrange">Auto Turn-off Indicator</h2>
+              <p class="textgo">Indicators turn off automatically after a turn. Just like a car.</p>
+            </div>
+          </div>
+        </div>
+        <div class="ptd-2">
+          <div class="perRange">
+            <div class="per">
+              <h1 class="textadvanceregan">Ride Journal</h1>
+              <p class="textkeepcharging">Keep track of everywhere you've been.            </p>
+            </div>
+            <div class="Range">
+              <h2 class="textrange">Access Controls</h2>
+              <p class="textgo">Set Geofence, Timefence and Modefence.<br> Right from your phone.</p>
+            </div>
+          </div>
+          <div class="topadvance">
+            <div class="Range">
+              <h2 class="textrange">Party Mode</h2>
+              <p class="textgo">Take the party. Wherever you go.</p>
+            </div>
+            <div class="per">
+              <h1 class="textadvanceregan">Energy Insights</h1>
+              <p class="textkeepcharging">Understand your scooter's energy usage. <br>Follow the tips to improve its range</p>
+            </div>
+          </div>
+          <div class="cruiseacc">
+            <div class="per">
+              <h1 class="textcruise">Hill Hold</h1>
+              <p class="textkeep">Hold your place on slopes.
+                <br>Hands-free.</p>
+            </div>
+            <div class="Range">
+              <h2 class="textrange">Moods</h2>
+              <p class="textgo">Go retro or go racing.
+               <br> Now match the ride to your mood.</p>
+            </div>
+          </div>
+          
+  
+        </div>
+      </div>
+      <style>
+      .pscontainer-1 {
+  display: flex;
+  width: 100vw;
+  padding: 10em;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.bg-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* IMAGES SOURCES  */
+/* https://wallpapercave.com/pc-games-wallpapers  */
+
+.image-1 {
+  background-image: url('../Volti-master/assets/images/psimg-1.webp');
+}
+
+.image-2 {
+  background-image: url('../Volti-master/assets/images/psimg-2.webp');
+}
+
+.image-3 {
+  background-image: url('../Volti-master/assets/images/psimg-3.webp');
+}
+
+.image-4 {
+  background-image: url(https://wallpapercave.com/dwp2x/wp4257708.jpg);
+}
+
+.image-5 {
+  background-image: url(https://wallpapercave.com/dwp2x/wp3163453.jpg);
+}
+
+.slide {
+  position: relative;
+  height: 80vh;
+  flex: 0.5;
+  border-radius: 20px;
+  color: #000000;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 450ms ease-in;
+}
+
+.slide h3 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+  font-size: 24px;
+}
+
+
+@media (max-width: 480px) {
+  .slide:nth-of-type(4),
+  .slide:nth-of-type(5) {
+    display: none;
+  }
+}
+
+/* JavaScript */
+.slide.active {
+  flex: 1;
+}
+
+.slide.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+.ourmost{
+  margin-top: 3em;
+  font-size: 25px;
+  margin-left: 7em;
+}
+
+.ptd{
+  border: 2px solid white;
+  height: 107vh;
+}
+
+/* .perRange{
+  border: 2px solid black;
+} */
+
+.per{
+  border: 2px solid white;
+  width: 385px;
+  height: 250px;
+  border-radius: 10px;
+}
+.Range{
+  border: 2px solid white;
+  margin-top: 10px;
+  width: 385px;
+  height: 484px;
+  border-radius: 10px;
+}
+
+.perRange{
+  margin-left: 10em;
+}
+
+.ptd{
+  display: flex;
+  gap: 25px;
+}
+
+.topadvance .Range{
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.perRange .Range{
+  background-image: url('../Volti-master/assets/images/img-5.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.topadvance .Range{
+  background-image: url('../Volti-master/assets/images/gridimg-2.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.cruiseacc .Range{
+  background-image: url('../Volti-master/assets/images/gridimg-3.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.textperformance{
+  font-size: 3em;
+  margin-top: 1em;
+}
+
+.textready{
+  font-size: 18px;
+  margin-top: 17px;
+}
+
+.topadvance .per{
+  background-image: url('../Volti-master/assets/images/gridimg-4.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.textadvanceregan{
+  font-size: 2em;
+  margin-top: 3.5em;
+  margin-left: 1em;
+}
+.textkeepcharging{
+  font-size: 18px;
+  margin-top: 14px;
+  margin-left: 2em;
+}
+
+.cruiseacc .per{
+  background-image: url('../Volti-master/assets/images/gridimg-5.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.textcruise{
+  font-size: 2em;
+  margin-left: 1em;
+  margin-top: 3.5em;
+}
+.textkeep{
+  font-size: 18px;
+  line-height: 1.4em;
+  margin-left: 2em;
+}
+.textrange{
+  font-size: 2em;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+.textgo{
+  margin-top: 10px;
+  font-size: 18px;
+  margin-left: 1.7em;
+  line-height: 25px;
+}
+.technology .ptd .perRange .Range{
+  background-image: url('../Volti-master/assets/images/gridimg-6.webp');
+}
+.technology .ptd .topadvance .Range{
+  background-image: url('../Volti-master/assets/images/gridimg-7.webp');
+}
+.technology .ptd .cruiseacc .Range{
+  background-image: url('../Volti-master/assets/images/gridimg-8.webp');
+}
+.technology .ptd .topadvance .per{
+  background-image: url('../Volti-master/assets/images/gridimg-9.webp');
+}
+.technology .ptd .cruiseacc .per{
+  background-image: url('../Volti-master/assets/images/gridimg-10.webp');
+}
+.technology{
+  margin-top: 12em;
+}
+.ptd-2{
+  display: flex;
+  /* margin-top: 0; */
+}
+
+.ptd-2{
+  gap: 1.7em;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+.ptd-2 .perRange .per{
+  background-image: url('../Volti-master/assets/images/gridimg-11.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.ptd-2 .perRange .Range{
+  background-image: url('../Volti-master/assets/images/gridimg-12.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.ptd-2 .topadvance .Range{
+  background-image: url('../Volti-master/assets/images/gridimg-13.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.ptd-2 .topadvance .per{
+  background-image: url('../Volti-master/assets/images/gridimg-14.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.ptd-2 .cruiseacc .per{
+  background-image: url('../Volti-master/assets/images/gridimg-15.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ptd-2 .cruiseacc .Range{
+  background-image: url('../Volti-master/assets/images/gridimg-16.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+      </style>
+      
+        <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js">
+      
+  </script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

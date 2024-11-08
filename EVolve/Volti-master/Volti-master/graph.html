@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Volti-master/assets/css/graph.css">
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EV Cost Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="calculator-section">
+        <div class="container">
+            <div class="calculator-grid">
+                <div class="calculator-content">
+                    <h2>Save More with Electric</h2>
+                    <p class="subtitle">Calculate your potential savings by switching to our electric vehicles</p>
+                    
+                    <div class="calculator-box">
+                        <label>
+                            Monthly Distance (km)
+                            <span class="distance-value" id="distanceValue">1000 km</span>
+                        </label>
+                        <input 
+                            type="range" 
+                            min="500" 
+                            max="3000" 
+                            step="100" 
+                            value="1000" 
+                            id="distanceSlider"
+                        >
+                    </div>
+                    
+                    <div class="cost-grid">
+                        <div class="cost-card petrol">
+                            <div class="cost-header">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 5h-4V3H6v14a3 3 0 0 0 3 3h0a3 3 0 0 0 3-3V8h2v11a3 3 0 0 0 3 3h0a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3Z"/>
+                                </svg>
+                                <span>Petrol Cost</span>
+                            </div>
+                            <p class="cost-value" id="petrolCost">₹10,000</p>
+                        </div>
+                        
+                        <div class="cost-card ev">
+                            <div class="cost-header">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                                </svg>
+                                <span>EV Cost</span>
+                            </div>
+                            <p class="cost-value" id="evCost">₹800</p>
+                        </div>
+                    </div>
+                    
+                    <div class="savings-box">
+                        <h3>Your Monthly Savings</h3>
+                        <p class="savings-value" id="savings">₹9,200</p>
+                        <p class="savings-note">Switch to electric and start saving today!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="containerec">
+            <h1>Find EV Charging Stations</h1>
+            <div class="city-selector">
+                <label for="city-select">Select your city</label>
+                <select id="city-select" name="city">
+                    <option value="coimbatore">Coimbatore</option>
+                    <option value="erode">Erode</option>
+                    <option value="tiruppur">Tiruppur</option>
+                    <option value="salem">Salem</option>
+                    <option value="trichy">Trichy</option>
+                    <option value="madurai">Madurai</option>
+                </select>
+            </div>
+            <div class="map-container">
+                <div id="map-frame" class="map active" data-city="coimbatore">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d88976.94571762024!2d76.94144532376725!3d11.040247261520433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sev%20charging%20station%2Ccoimbatore!5e0!3m2!1sen!2sin!4v1729881409146!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="../Volti-master/assets/js/graph.js"></script>
+</body>
+</html>
+
+    <script src="../Volti-master/assets/js/graph.js"></script>
+</body>
+</html>
